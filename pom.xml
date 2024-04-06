@@ -15,6 +15,7 @@
 	<description>Web Application to get weather details</description>
 	<properties>
 		<version.spring.swagger>3.0.0</version.spring.swagger>
+		<version.swagger.core>2.1.11</version.swagger.core>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -120,6 +121,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>3.0.0.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

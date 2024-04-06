@@ -32,8 +32,8 @@ spring:
         hibernate:
           SQL: DEBUG
 
-    server:
-      port: ${APP_PORT:8081}
+server:
+  port: ${APP_PORT:8081}
 
 #mongo config
 database:
@@ -45,4 +45,13 @@ weather:
   auth:
     secret: ${WEATHER_JWT_SECRET:dice_weather_@$$!gnment}
     issuer: ${WEATHER_JWT_ISSUER:dice}
-    duration: ${WEATHER_JWT_DURATION:PT300S}
+    duration: ${WEATHER_JWT_DURATION:PT3600S}
+  rest:
+    connect-timeout: ${WEATHER_REST_CONNECT_TIMEOUT:3000}
+    read-timeout: ${WEATHER_REST_READ_TIMEOUT:5000}
+  api:
+    host: ${WEATHER_API_HOST:https://forecast9.p.rapidapi.com/rapidapi/forecast/}
+    headers:
+      x-api-host: ${WEATHER_HEADER_HOST:forecast9.p.rapidapi.com}
+      x-api-key: ${WEATHER_HEADER_KEY:a97501cd06mshf513aa138eb8c70p103ea6jsn8d49c87e3bfc}
+      x-app-id: ${WEATHER_HEADER_ID:default-application_8874641}
