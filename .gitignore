@@ -1,0 +1,72 @@
+.idea/*
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Gradle
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+# compiled output
+dist/
+tmp/
+out-tsc/
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.c9/
+*.launch
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+npm-debug.log
+testem.log
+typings
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+Thumbs.db
+
+node
+*.jar
+*.lst
+*.exe

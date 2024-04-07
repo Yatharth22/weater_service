@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e17ca1c8-454a-40f8-bf91-fbb41d3a6cf3" name="Changes" comment="" />
+    <list default="true" id="e17ca1c8-454a-40f8-bf91-fbb41d3a6cf3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/WeatherServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/config/RestTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/config/WeatherAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/controller/WeatherAppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/db/config/DbConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/db/model/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/db/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/db/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/model/Constants$CollectionName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/model/Constants$Headers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/model/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/model/CredentialsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/service/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/service/WeatherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/util/Authorized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/util/JSONMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/util/PreAuthorizationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dice/weather/util/ServiceHeaderFilter.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
