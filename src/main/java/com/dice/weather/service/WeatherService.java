@@ -26,13 +26,13 @@ public class WeatherService {
 
     public String getWeatherSummaryForLocation(String location) throws URISyntaxException {
         String host = weatherAppConfig.getApiHost();
-        String url = host.concat(location).concat("/summary");
+        String url = host.concat(location).concat("/summary/");
         return callClientApi(url);
     }
 
     public String getHourlyWeatherSummaryForLocation(String location) throws URISyntaxException {
         String host = weatherAppConfig.getApiHost();
-        String url = host.concat(location).concat("/hourly");
+        String url = host.concat(location).concat("/hourly/");
         return callClientApi(url);
     }
 
@@ -48,7 +48,6 @@ public class WeatherService {
         HttpHeaders headers = new HttpHeaders();
         headers.set(X_RAPID_API_HOST, weatherAppConfig.getXApiHeaderHost());
         headers.set(X_RAPID_API_KEY, weatherAppConfig.getXApiHeaderKey());
-//        headers.set(X_APPLICATION_ID, weatherAppConfig.getXApiHeaderAppId());
         return headers;
     }
 }

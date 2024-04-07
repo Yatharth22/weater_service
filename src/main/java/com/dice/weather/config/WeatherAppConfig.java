@@ -32,7 +32,4 @@ public class WeatherAppConfig {
     @Value("${weather.api.headers.x-api-key}")
     private String xApiHeaderKey;
 
-    @Value("${weather.api.headers.x-app-id}")
-    private String xApiHeaderAppId;
-
 }
